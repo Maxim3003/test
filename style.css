@@ -1,4 +1,7 @@
 body {
+  width: 85%;
+  box-sizing: border-box;
+  margin: auto;
   background-color: beige;
 }
 header {
@@ -7,20 +10,24 @@ header {
   min-height: 100px;
 }
 nav {
+  margin: auto;
   background-color: black;
-  border: 1px solid red;
+
   min-height: 40px;
+  width: 80%;
   color: white;
 }
 #nav-bar {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 .nav-bar-li {
   padding: 10px;
   border: 2px solid white;
   border-radius: 25px;
+}
+.nav-bar-button {
 }
